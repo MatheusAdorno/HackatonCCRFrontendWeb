@@ -123,6 +123,7 @@ export const Counter = styled.div`
     color: #7fb3f0;
     border-style: solid;
     border-color: #7fb3f0;
+    transition: all 0.2s, color 0.2s;
   }
 `;
 
@@ -177,6 +178,7 @@ export const ContainerText = styled.div`
       color: #7fb3f0;
       border-style: solid;
       border-color: #7fb3f0;
+      transition: all 0.2s, color 0.2s;
     }
   }
 `;

@@ -39,8 +39,6 @@ export const InsideNav = styled.div<NavbarProps>`
     border-style: none none solid none;
     border-color: #a1e3b4;
     border-width: 4px;
-    transition: border-color 0.2s;
-    transition: color 0.2s;
 
     cursor: pointer;
   }
@@ -85,5 +83,6 @@ export const InsideNav = styled.div<NavbarProps>`
     height: 100%;
     color: #aa96e3;
     border-color: #aa96e3;
+    transition: border-color 0.3s, color 0.3s;
   }
 `;
