@@ -1,7 +1,5 @@
 import styled from 'styled-components';
 
-import { shade } from 'polished';
-
 export const Container = styled.div`
   margin: 0;
   font-size: 30px;
@@ -13,52 +11,6 @@ export const Header = styled.div`
   background-color: #eee;
   padding: 30px;
   text-align: center;
-`;
-
-export const NavBar = styled.div`
-  position: relative;
-  overflow: hidden;
-  padding-top: 100px;
-`;
-
-export const InsideNav = styled.div`
-  display: flex;
-  place-content: center;
-  flex-direction: row;
-  height: 120px;
-
-  div {
-    display: flex;
-    padding: 10px 10px 10px 10px;
-    height: 120px;
-    align-items: center;
-
-    img {
-      height: 70px;
-    }
-  }
-
-  button {
-    font-family: 'Roboto Condensed', sans-serif;
-    font-weight: bold;
-
-    max-height: 120px;
-    padding: 30px 20px 30px 20px;
-    background-color: #a1e3b4;
-    color: #fff;
-    font-size: 35px;
-    border-style: none none solid none;
-    border-color: #a1e3b4;
-    border-width: 4px;
-    transition: border-color 0.2s;
-    transition: color 0.2s;
-  }
-
-  button:hover {
-    height: 100%;
-    color: #aa96e3;
-    border-color: #aa96e3;
-  }
 `;
 
 export const ContainerTopics = styled.div`
@@ -160,9 +112,17 @@ export const Counter = styled.div`
     background-color: #f5f185;
     border: none;
 
+    cursor: pointer;
+
     h1 {
       width: 100%;
     }
+  }
+
+  button:hover {
+    color: #7fb3f0;
+    border-style: solid;
+    border-color: #7fb3f0;
   }
 `;
 
@@ -199,7 +159,7 @@ export const ContainerText = styled.div`
     }
 
     button {
-      font-size: 14px;
+      font-size: 12px;
 
       margin-top: 30px;
 
@@ -209,6 +169,14 @@ export const ContainerText = styled.div`
 
       background-color: #f5f185;
       border: none;
+
+      cursor: pointer;
+    }
+
+    button:hover {
+      color: #7fb3f0;
+      border-style: solid;
+      border-color: #7fb3f0;
     }
   }
 `;

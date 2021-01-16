@@ -3,8 +3,6 @@ import React from 'react';
 import {
   Container,
   ContainerTopics,
-  NavBar,
-  InsideNav,
   Content,
   TopicOne,
   Counter,
@@ -12,30 +10,19 @@ import {
   Navend,
 } from './styles';
 
+import NavBar from '../../components/NavBar/Navbar';
+
 import Icon1 from '../../assets/comoefeito.png';
 import Icon2 from '../../assets/industrializacao.png';
 import Icon3 from '../../assets/vendasedoacao.png';
 import paperMaking from '../../assets/papermaking.png';
 import backgroundImg from '../../assets/counterbackground.png';
 import LogoSmall from '../../assets/LogoSmall.png';
-import LogoBig from '../../assets/LogoBig.png';
 import SocialMedia from '../../assets/socialmedia.png';
 
 const Home: React.FC = () => (
   <Container>
-    <NavBar>
-      <nav>
-        <InsideNav>
-          <div>
-            <img src={LogoBig} alt="logoBig" />
-          </div>
-          <button type="submit">Quem somos nós</button>
-          <button type="submit">Produtos</button>
-          <button type="submit">Nosso papel</button>
-          <button type="submit">Comunidades ajudadas</button>
-        </InsideNav>
-      </nav>
-    </NavBar>
+    <NavBar page="home" />
     <ContainerTopics>
       <Content>
         <h2>Qual o nosso Objetivo?</h2>
