@@ -3,7 +3,7 @@ import { Switch, Route } from 'react-router-dom';
 
 import Home from '../pages/Home/index';
 import HowTo from '../pages/HowTo/index';
-import Products from '../pages/Products/index';
+import Products from '../pages/Product/index';
 import HelpCommunity from '../pages/HelpCommunity/index';
 
 const Routes: React.FC = () => (

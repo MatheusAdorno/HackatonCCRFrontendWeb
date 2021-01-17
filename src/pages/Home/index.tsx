@@ -32,6 +32,7 @@ const Home: React.FC = () => {
       style={{
         backgroundImage: `url(${backgroundImage})`,
         width: '100%',
+        backgroundRepeat: 'no-repeat',
       }}
     >
       <Container>

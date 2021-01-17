@@ -7,7 +7,14 @@ import Router from './routes/Router';
 import BackgroundImg from './assets/BackgroundAll.png';
 
 const App: React.FC = () => (
-  <div style={{ backgroundImage: `url(${BackgroundImg})`, width: '100%' }}>
+  <div
+    style={{
+      backgroundImage: `url(${BackgroundImg})`,
+      width: '100%',
+      backgroundRepeat: 'no-repeat',
+      backgroundAttachment: 'fixed',
+    }}
+  >
     <BrowserRouter>
       <Router />
     </BrowserRouter>
