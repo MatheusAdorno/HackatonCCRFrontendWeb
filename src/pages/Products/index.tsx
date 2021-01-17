@@ -1,7 +1,5 @@
 import React from 'react';
 
-import {} from './styles';
-
 import NavBar from '../../components/NavBar/Navbar';
 import BottomNav from '../../components/BottomNav/BottomNav';
 
