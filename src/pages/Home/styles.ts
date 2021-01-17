@@ -76,9 +76,9 @@ export const TopicOne = styled.div`
 export const Counter = styled.div`
   position: absolute;
   width: 100%;
-  color: #e68181;
+  color: #eab25d;
   text-align: center;
-  margin-top: 340px;
+  margin-top: 310px;
 
   h1 {
     width: 45%;

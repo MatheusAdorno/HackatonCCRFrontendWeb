@@ -27,6 +27,12 @@ export const InsideNav = styled.div<NavbarProps>`
     }
   }
 
+  Link {
+    margin: none;
+    height: 120px;
+    background-color: #a1e3b4;
+  }
+
   button {
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: bold;
@@ -41,6 +47,13 @@ export const InsideNav = styled.div<NavbarProps>`
     border-width: 4px;
 
     cursor: pointer;
+  }
+
+  button:hover {
+    height: 100%;
+    color: #aa96e3;
+    border-color: #aa96e3;
+    transition: border-color 0.3s, color 0.3s;
   }
 
   ${props =>
@@ -78,11 +91,4 @@ export const InsideNav = styled.div<NavbarProps>`
         border-color: #aa96e3;
       }
     `}
-
-  button:hover {
-    height: 100%;
-    color: #aa96e3;
-    border-color: #aa96e3;
-    transition: border-color 0.3s, color 0.3s;
-  }
 `;

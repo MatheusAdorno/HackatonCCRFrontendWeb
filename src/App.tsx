@@ -1,20 +1,16 @@
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
 
 import GlobalStyle from './styles/global';
-import Home from './pages/Home';
-
-import backgroundImage from './assets/Background.png';
+import Router from './routes/Router';
 
 const App: React.FC = () => (
-  <div
-    style={{
-      backgroundImage: `url(${backgroundImage})`,
-      width: '100%',
-    }}
-  >
-    <Home />
+  <>
+    <BrowserRouter>
+      <Router />
+    </BrowserRouter>
     <GlobalStyle />
-  </div>
+  </>
 );
 
 export default App;
