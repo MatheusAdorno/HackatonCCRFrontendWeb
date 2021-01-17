@@ -62,10 +62,6 @@ export const NewsContainer = styled.div`
 
   width: 600px;
 
-  h1 {
-    color: #f17c76;
-  }
-
   img {
     width: 500px;
   }
@@ -208,5 +204,45 @@ export const DotedTag = styled.div`
     font-size: 38px;
     margin-top: -10px;
     color: #787878;
+  }
+`;
+
+export const TitleContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+
+  margin-bottom: 20px;
+
+  align-items: center;
+  justify-content: center;
+  h1 {
+    font-size: 30px;
+    color: #f17c76;
+  }
+`;
+
+export const DateContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #fff3d3;
+
+  margin-right: 30px;
+
+  height: 80px;
+  width: 150px;
+
+  p {
+    font-family: 'Roboto Condensed';
+    font-size: 24px;
+    color: #d63335;
+  }
+
+  span {
+    font-family: 'Roboto Condensed';
+    font-size: 24px;
+    color: #56ac6f;
   }
 `;

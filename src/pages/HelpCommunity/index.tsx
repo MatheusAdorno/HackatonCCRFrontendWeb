@@ -12,6 +12,8 @@ import {
   VerticalDash,
   CalendarContainer,
   DotedTag,
+  DateContainer,
+  TitleContainer,
 } from './styles';
 
 import NavBar from '../../components/NavBar/Navbar';
@@ -59,7 +61,13 @@ const HelpCommunity: React.FC = () => (
       </LeftContainer>
       <MiddleContainer>
         <NewsContainer>
-          <h1>Conseguimos chegar a mais uma comunidade!</h1>
+          <TitleContainer>
+            <h1>Conseguimos chegar a mais uma comunidade!</h1>
+            <DateContainer>
+              <p>17</p>
+              <span>FEV</span>
+            </DateContainer>
+          </TitleContainer>
           <img src={NewsImage} alt="imageNews" />
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -70,7 +78,13 @@ const HelpCommunity: React.FC = () => (
         </NewsContainer>
         <DashedLine />
         <NewsContainer>
-          <h1>Conseguimos chegar a mais uma comunidade!</h1>
+          <TitleContainer>
+            <h1>Conseguimos chegar a mais uma comunidade!</h1>
+            <DateContainer>
+              <p>6</p>
+              <span>FEV</span>
+            </DateContainer>
+          </TitleContainer>
           <img src={NewsImage} alt="imageNews" />
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -81,7 +95,13 @@ const HelpCommunity: React.FC = () => (
         </NewsContainer>
         <DashedLine />
         <NewsContainer>
-          <h1>Conseguimos chegar a mais uma comunidade!</h1>
+          <TitleContainer>
+            <h1>Conseguimos chegar a mais uma comunidade!</h1>
+            <DateContainer>
+              <p>1</p>
+              <span>FEV</span>
+            </DateContainer>
+          </TitleContainer>
           <img src={NewsImage} alt="imageNews" />
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
